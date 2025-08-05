@@ -1,0 +1,472 @@
+@font-face{
+    font-family:IRANSans;
+    src: url("./Fonts/IRANSansWeb_Black.ttf") format("ttf");
+}
+@font-face{
+    font-family:IRANSans;
+    src: url("./Fonts/IRANSansWeb_Black1.woff") format("woff");
+}
+@font-face{
+    font-family:IRANSans;
+    src: url("./Fonts/IRANSansWeb_Black2.eot") format("eot");
+}
+@font-face{
+    font-family:IRANSans;
+    src: url("./Fonts/IRANSansWeb_Black3.woff2") format("woff2");
+}
+@font-face{
+    font-family:IRANSans;
+    src: url("./Fonts/IRANSansWeb_Black4.otf") format("otf");
+}
+body{
+  font-family:IRANSans;
+    overflow-x: hidden;
+    background-color: #f0ede4;
+}
+
+.navbar {
+    background-color: #ffe9dc !important; 
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #ffe9dc;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2c3e50 !important; 
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav-link {
+    color: #5a5a5a !important; 
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    position: relative;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: #FF5C0A; 
+}
+
+.nav-link.active {
+    color: #FF5C0A !important;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #ffe9dc;
+    border: 1px solid #e0d6c2;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.dropdown-item {
+    color: #5a5a5a !important;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #FF5C0A !important; 
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+    color: #5a5a5a;
+}
+
+  .header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.btn-orange {
+    background-color: #ff5c0a;
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e45a06;
+    color: white;
+}
+
+.site-title {
+    color: #FF5C0A;
+    font-size: 1.2rem;
+}
+
+.bg-orange {
+  background-color: #FF5C0A;
+}
+
+.text-orange {
+  color: #FF5C0A;
+}
+.middle img {
+  transition: transform 0.4s ease;
+}
+
+.middle img:hover {
+  transform: scale(1.05);
+}
+
+.middle .btn {
+  transition: all 0.3s ease;
+}
+
+.middle .btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.products {
+  position: relative;
+}
+.section-title .divider-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #eee;
+  z-index: -1;
+}
+.product-card {
+  transition: all 0.3s ease;
+  border-radius: 15px !important;
+  overflow: hidden;
+}
+
+.shadow-hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transform: translateY(-5px);
+}
+
+.product-image {
+  transition: transform 0.5s ease;
+  height: 220px;
+  object-fit: cover;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.text-orange {
+  color: #FF5C0A;
+}
+
+.btn-orange {
+  background-color: #FF5C0A;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background-color: #e45a06;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(255, 92, 10, 0.3);
+}
+
+.product-badge {
+  font-size: 0.75rem;
+  font-weight: bold;
+  z-index: 2;
+}
+.card {
+  transition: transform 0.3s;
+}
+.services {
+  font-family: 'IranSans', sans-serif;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  background-color: #e45a06;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  border-radius: 8px;
+  padding: 30px 20px;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.service-badge {
+  display: inline-block;
+  background-color: #f8f9fa;
+  color: #e45a06;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.more-products-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #f8f9fa;
+  color: #e45a06;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid #e45a06;
+  transition: all 0.3s ease;
+}
+
+.more-products-btn:hover {
+  background-color: #e45a06;
+  color: white;
+  transform: scale(1.05);
+}
+.contact-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.contact-list {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.contact-list .list-group-item {
+  font-size: 16px;
+  padding: 18px 22px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  text-align: right;
+}
+
+.contact-list .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.contact-list a {
+  color: #FF5C0A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+.testimonial-card {
+  min-height: 100%;
+  background-color: #fffefb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+}
+
+.text-orange {
+  color: #FF5C0A;
+}
+.accordion-button {
+  background-color: #fff8f3;
+  font-weight: bold;
+  color: #FF5C0A;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffe9dc;
+  color: #e65100;
+}
+
+.accordion-body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.8;
+}
+.btn-warning {
+  background-color: #FF5C0A;
+  border-color: #FF5C0A;
+}
+
+.btn-warning:hover {
+  background-color: #e55a06;
+  border-color: #e55a06;
+}
+.footer-clean {
+  background-color: #f8f9fa;
+  color: #333;
+  border-top: 2px solid #FF5C0A;
+}
+
+.footer-link {
+  color: #FF5C0A;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #e55a06;
+  text-decoration: underline;
+}
+
+.text-orange {
+  color: #FF5C0A;
+}
+.social-icon {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  transform: scale(1.1) translateY(-3px);
+}
+
+.social-icon img {
+  filter: brightness(0.9);
+  transition: filter 0.3s ease;
+}
+
+.social-icon:hover img {
+  filter: brightness(1.1) drop-shadow(0 2px 4px rgba(255, 92, 10, 0.3));
+}
+/* اسلایدر نرم و روان */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-property: opacity;
+  transform: none;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-item-start,
+.carousel-fade .carousel-item-end {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
+  opacity: 1;
+}
+
+.carousel-item {
+  transition: opacity 1.2s ease-in-out;
+}
+
+.carousel-indicators button {
+  transition: all 0.5s ease;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  transition: transform 0.3s ease;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  transform: scale(1.1);
+}
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #2c3e50 !important;
+    display: flex;
+    align-items: center; 
+}
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 99;
+  background-color: #FF5C0A;
+  color: white;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: #e65100;
+  transform: translateY(-3px);
+}
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 99;
+  background-color: #FF5C0A;
+  color: white;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: #e65100;
+  transform: translateY(-3px);
+}

@@ -1,0 +1,112 @@
+body {
+    font-family: IRANSans;
+    background-color: #f0ede4;
+}
+
+.specs-card, .features-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.spec-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.spec-item:last-child {
+    border-bottom: none;
+}
+
+.spec-title {
+    font-weight: bold;
+    color: #555;
+}
+
+.app-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.app-icon {
+    font-size: 2.5rem;
+    color: #FF5C0A;
+    margin-bottom: 15px;
+}
+
+/* نمونه کارها */
+.portfolio-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 92, 10, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+h2, h3, h4 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.text-orange {
+    color: #FF5C0A;
+}
+
+.btn-orange {
+    background-color: #FF5C0A;
+    color: white;
+    transition: all 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: #e45a06;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(255, 92, 10, 0.3);
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.features-list li:last-child {
+    border-bottom: none;
+}
+
+.features-list i {
+    margin-left: 8px;
+} 

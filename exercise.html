@@ -1,0 +1,496 @@
+<html dir="rtl" lang="fa">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="./images/cropped_image.png" sizes="40x40">
+  <link rel="stylesheet" type="text/css" href="style exercise/bootstrap.min.css" />
+  <link rel="stylesheet" href="style exercise/exercise.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="header py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="logo col-md-2 col-6">
+          <img src="images/cropped_image.png" alt="لوگوی تابان" class="logo img-fluid" width="50" />
+        </div>
+        <div class="col-md-6 col-6 order-md-2 order-3">
+          <h1 class="site-title m-0 px-5 display-1" style="font-size: 1.5rem;">سنگبری تابان، حس خوب، خرید مطمئن</h1>
+        </div>
+        <div class="col-md-4 order-md-6 order-3 mt-md-0 mt-3">
+          <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="جستجو...">
+            <button id="searchBtn" class="btn btn-orange">
+              <i class="fas fa-circle-notch fa-spin me-2 d-none" id="loadingIcon"></i>جستجو
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="position: sticky; top: 0; z-index: 1000;">
+    <div class="container">
+      <a class="navbar-brand fas fa-gem me-2" href="#">سنگبری تابان</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fas fa-home" aria-current="page" href="#">خانه</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fas fa-layer-group" href="#" id="travertineDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              سنگ های تراورتن
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="travertineDropdown">
+              <li><a class="dropdown-item" href="teraverten/teraverten.html">تراورتن عباس آباد</a></li>
+              <li><a class="dropdown-item" href="teraverten/teraverten.html">تراورتن حاجی آباد</a></li>
+              <li><a class="dropdown-item" href="teraverten/teraverten.html">تراورتن طرق</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fas fa-layer-group" href="#" id="marbleDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              سنگ های مرمریت
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="marbleDropdown">
+              <li><a class="dropdown-item" href="marmarit/marmaritinfo.html">مرمریت لاشتر</a></li>
+              <li><a class="dropdown-item" href="marmarit/marmaritinfo2.html">مرمریت نجف آباد</a></li>
+              <li><a class="dropdown-item" href="marmarit/marmaritinfo3.html">مرمریت دهبید</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fas fa-layer-group" href="chini/chini.html">سنگ چینی</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fas fa-circle-info" href="about us/about.html">درباره ی ما</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active bg-orange"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" class="bg-orange"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" class="bg-orange"></button>
+    </div>
+    <div class="carousel-inner rounded-3 overflow-hidden" style="background-color: white;">
+      <div class="carousel-item active">
+        <img alt="slider_image" src="images/output-onlinepngtools.png" class="d-block w-100"
+          style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="bottom: auto; top: 0;">
+          <div class="bg-dark bg-opacity-50 p-4 rounded-3 animate__animated animate__fadeInUp">
+            <p class="display-4 fw-bold mb-4" style="color: #FF5C0A; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">به
+              سنگبری تابان خوش آمدید.</p>
+            <p class="fs-3" style="color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">سنگبری تابان با نیم قرن تجربه
+              در تولید و فروش انواع سنگ های ساختمانی</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img alt="slider_image" src="images/output-onlinepngtools (1).png" class="d-block w-100"
+          style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="bottom: auto; top: 0;">
+          <div class="bg-dark bg-opacity-50 p-4 rounded-3 animate__animated animate__fadeInUp">
+            <p class="display-4 fw-bold mb-4" style="color: #FF5C0A; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">ارسال
+              سریع به سراسر کشور</p>
+            <p class="fs-3" style="color: #FF5C0A; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">با بسته بندی ایمن و پیگیری
+              لحظه ای</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img alt="slider_image" src="images/output-onlinepngtools (2).png" class="d-block w-100"
+          style="height: 600px; object-fit: cover;">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="bottom: auto; top: 0;">
+          <div class="bg-dark bg-opacity-50 p-4 rounded-3 animate__animated animate__fadeInUp">
+            <p class="display-4 fw-bold mb-4" style="color: #FF5C0A; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">خرید
+              مستقیم از کارخانه</p>
+            <p class="fs-3" style="color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">قیمت مناسب،کیفیت بالا،بدون
+              واسطه</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bg-orange rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon bg-orange rounded-circle p-3" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="services container py-5" style="margin-top: 60px;">
+    <div class="text-center mb-5">
+      <h2 class="section-title">خدمات سنگبری تابان</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <i class="fas fa-handshake-angle service-icon fa-3x text-orange"></i>
+          <h3>پیشرو در فروش سنگ‌های ساختمانی</h3>
+          <p>عرضه متنوع‌ترین سنگ‌ها با کیفیت بالا و قیمت مناسب</p>
+          <span class="service-badge"><i class="fas fa-star me-1"></i>خدمات ویژه</span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <i class="fas fa-tags service-icon fa-3x text-orange"></i>
+          <h3>فروش با قیمت فوق‌العاده</h3>
+          <p>خرید مستقیم از کارخانه بدون واسطه با تضمین بهترین قیمت</p>
+          <span class="service-badge"><i class="fas fa-percent me-1"></i>تخفیف ویژه</span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="service-card">
+          <i class="fas fa-cut service-icon fa-3x text-orange"></i>
+          <h3>برش سفارشی</h3>
+          <p>برش سنگ‌ها در ابعاد دلخواه مشتری با دستگاه‌های پیشرفته</p>
+          <span class="service-badge"><i class="fas fa-ruler-combined me-1"></i>سفارشی‌سازی</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="middle py-5 bg-orange rounded-3" style="margin-top: 120px;">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-6">
+              <img src="images/aks11azprojeh.jpg" alt="سنگ شماره یک" class=" rounded-3 shadow"
+                style="height: 250px; width: 100%; object-fit: cover;">
+            </div>
+            <div class="col-6">
+              <img src="images/aks12azprojeh.jpg" alt="سنگ شماره دو" class=" rounded-3 shadow"
+                style="height: 250px; width: 100%; object-fit: cover;">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center text-lg-start text-white">
+          <h2>از خدمات ما بهره‌مند شوید</h2>
+          <p>با بهترین قیمت و کیفیت ممکن در بازار سنگ ایران</p>
+          <a class="btn btn-light text-orange fw-bold px-4 py-2 rounded-pill" href="about us/about.html">
+            <i class="fas fa-eye me-2"></i>مشاهده خدمات
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="products container my-5 py-5">
+    <h2 class="section-title text-center mb-5 position-relative">
+      <span class="bg-white px-3">محصولات جدید</span>
+      <div class="divider-line"></div>
+    </h2>
+    <div class="row justify-content-center g-4">
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="product-card card h-100 border-0 overflow-hidden shadow-hover">
+          <div class="position-relative overflow-hidden">
+            <img src="images/aks13azprojeh.jpg" class="card-img-top img-fluid product-image" alt="سنگ مرمریت">
+            <div class="product-badge bg-danger text-white position-absolute top-0 start-0 m-3 px-2 py-1 rounded"
+              style="z-index: 0;">جدید</div>
+          </div>
+          <div class="product-info card-body text-center py-4 text-danger">
+            <h3 class="card-title h5 mb-3 fw-bold">سنگ مرمریت</h3>
+            <p class="card-text mb-3">ظاهر زیبا، مناسب برای کف و دیوار</p>
+            <div class="price h4  mb-4 fw-bold">۱,۰۰۰,۰۰۰ تومان</div>
+            <button class="btn btn-outline-danger btn-buy w-100 py-2 rounded-pill">
+              <i class="fas fa-shopping-cart ms-2"></i>افزودن به سبد خرید
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="product-card card h-100 border-0 overflow-hidden shadow-hover">
+          <div class="position-relative overflow-hidden">
+            <img src="images/aks14azprojeh.jpg" class="card-img-top img-fluid product-image" alt="سنگ گرانیت">
+            <div class="product-badge bg-success text-white position-absolute top-0 start-0 m-3 px-2 py-1 rounded"
+              style="z-index: 0;">پرفروش</div>
+          </div>
+          <div class="product-info card-body text-center py-4 text-success">
+            <h3 class="card-title h5 mb-3 fw-bold">سنگ گرانیت</h3>
+            <p class="card-text  mb-3">مقاوم در برابر سایش و رطوبت</p>
+            <div class="price h4  mb-4 fw-bold">۱,۵۰۰,۰۰۰ تومان</div>
+            <button class="btn btn-outline-success btn-buy w-100 py-2 rounded-pill">
+              <i class="fas fa-shopping-cart ms-2"></i>افزودن به سبد خرید
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="product-card card h-100 border-0 overflow-hidden shadow-hover">
+          <div class="position-relative overflow-hidden">
+            <img src="images/aks16azprojeh.jpg" class="card-img-top img-fluid product-image" alt="سنگ تراورتن">
+            <div class="product-badge bg-info text-white position-absolute top-0 start-0 m-3 px-2 py-1 rounded"
+              style="z-index: 0;">تخفیف ویژه</div>
+          </div>
+          <div class="product-info card-body text-center py-4">
+            <h3 class="card-title h5 mb-3 fw-bold text-primary">سنگ تراورتن</h3>
+            <p class="card-text text-primary mb-3">زیبایی طبیعی، مناسب نمای ساختمان</p>
+            <div class="price h4 text-primary mb-4 fw-bold">
+              <span class="text-decoration-line-through  text-danger me-2 fs-6">۱,۲۰۰,۰۰۰ تومان</span>
+              ۹۰۰,۰۰۰ تومان
+            </div>
+            <button class="btn btn-outline-primary btn-buy w-100 py-2 rounded-pill">
+              <i class="fas fa-shopping-cart ms-2"></i>افزودن به سبد خرید
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5">
+      <a href="all cards/cards.html" class="more-products-btn">مشاهده همه محصولات →</a>
+    </div>
+  </section>
+  <section class="contact contact-centered container fade-in">
+    <h2 class="section-title">اطلاعات تماس</h2>
+    <div class="list-group contact-list mt-4">
+      <div class="list-group-item">
+        <i class="fas fa-phone-alt text-orange me-2"></i>
+        <strong>تلفن کارخانه:</strong>
+        <a href="tel:+02156235444">02156235444</a>
+      </div>
+
+      <div class="list-group-item">
+        <i class="fas fa-user-tie text-orange me-2"></i>
+        <strong>مدیریت:</strong>
+        <a href="tel:+989123304210">09123304210 - محمد رحیمی</a>
+      </div>
+
+      <div class="list-group-item">
+        <i class="fas fa-user-check text-orange me-2"></i>
+        <strong>مدیر فروش:</strong>
+        <a href="tel:+989121831836">09121831836 - مجید رحیمی</a>
+      </div>
+
+      <div class="list-group-item">
+        <i class="fas fa-map-marker-alt text-orange me-2"></i>
+        <strong>آدرس:</strong>
+        تهران، شهرک صنعتی شمس‌آباد، بلوار بوستان، گلبن ۶، پلاک ۱۳
+      </div>
+
+      <div class="list-group-item">
+        <i class="fas fa-envelope text-orange me-2"></i>
+        <strong>ایمیل:</strong>
+        <a href="mailto:info@tabanstone.com">info@tabanstone.com</a>
+      </div>
+
+      <div class="list-group-item">
+        <i class="fab fa-instagram text-orange me-2"></i>
+        <strong>اینستاگرام:</strong>
+        <a href="https://instagram.com/tabanstone" target="_blank">@tabanstone</a>
+      </div>
+
+    </div>
+  </section>
+  <section class="container fade-in pb-3 pt-3" style="background-color: #ffe9dc; margin-top: 150px;">
+    <h2 class="section-title text-center mb-5">نظرات مشتریان ما</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 d-flex">
+        <div class="card flex-fill text-center shadow-sm rounded-4 p-3 testimonial-card">
+          <img src="images/مجید-رحیمی-مدیر-گنجینه-تاسیسات.jpg"
+            class="rounded-circle border border-3 border-warning shadow mb-3 mx-auto" width="80" height="80"
+            alt="مشتری ۱">
+          <p class="text-muted">
+            <i class="fas fa-quote-right me-2 text-orange"></i>
+            “سنگ‌هایی با کیفیت عالی و قیمت مناسب. از خرید از تابان کاملاً راضی‌ام!”
+          </p>
+          <h6 class="fw-bold text-orange">
+            <i class="fas fa-user-circle me-1"></i>– علی رضایی
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card flex-fill text-center shadow-sm rounded-4 p-3 testimonial-card">
+          <img src="images/images.jfif" class="rounded-circle border border-3 border-warning shadow mb-3 mx-auto"
+            width="80" height="80" alt="مشتری ۲">
+          <p class="text-muted">
+            <i class="fas fa-quote-right me-2 text-orange"></i>
+            “سنگ‌هایی با کیفیت عالی و قیمت مناسب. از خرید از تابان کاملاً راضی‌ام!”
+          </p>
+          <h6 class="fw-bold text-orange">
+            <i class="fas fa-user-circle me-1"></i>– علی رضایی
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex">
+        <div class="card flex-fill text-center shadow-sm rounded-4 p-3 testimonial-card">
+          <img src="images/مجید-رحیمی-مدیر-گنجینه-تاسیسات.jpg"
+            class="rounded-circle border border-3 border-warning shadow mb-3 mx-auto" width="80" height="80"
+            alt="مشتری ۳">
+          <p class="text-muted ">
+            <i class="fas fa-quote-right me-2 text-orange"></i>
+            “سنگ‌هایی با کیفیت عالی و قیمت مناسب. از خرید از تابان کاملاً راضی‌ام!”
+          </p>
+          <h6 class="fw-bold text-orange">
+            <i class="fas fa-user-circle me-1"></i>– علی رضایی
+          </h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container fade-in" style="margin-top: 200px;">
+    <h2 class="section-title text-center mb-4">سوالات متداول</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseOne" aria-expanded="false" aria-controls="faqCollapseOne">
+            چگونه سفارش ثبت کنم؟
+          </button>
+        </h2>
+        <div id="faqCollapseOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            از طریق تماس مستقیم یا فرم سفارش، می‌توانید سفارش خود را ثبت کنید.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+            مدت زمان آماده‌سازی سفارش چقدر است؟
+          </button>
+        </h2>
+        <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            بسته به نوع سنگ و مقدار سفارش، معمولاً بین ۳ تا ۵ روز کاری زمان نیاز است.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeadingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+            آیا ارسال به شهرستان دارید؟
+          </button>
+        </h2>
+        <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            بله، ارسال به تمام نقاط ایران از طریق باربری انجام می‌شود.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container fade-in" style="margin-top: 200px;">
+    <h2 class="section-title text-center mb-4">
+      <i class="fas fa-comment-dots text-orange me-2"></i>ارسال نظر شما
+    </h2>
+    <form class="p-4 shadow rounded-4 bg-white" style="max-width: 700px; margin: auto;">
+
+      <div class="mb-3">
+        <label for="name" class="form-label">نام شما:</label>
+        <input type="text" class="form-control" id="name" placeholder="نام خود را وارد کنید" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="comment" class="form-label">نظر شما:</label>
+        <textarea class="form-control" id="comment" rows="5" placeholder="نظر خود را بنویسید..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-warning text-white px-4">ارسال نظر</button>
+    </form>
+  </section>
+  <footer class="footer-clean py-5" style="margin-top: 350px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-orange mb-4">ارتباط با ما</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="fas fa-map-marker-alt me-2 text-orange"></i> تهران، شهرک صنعتی شمس‌آباد</li>
+            <li class="mb-2"><i class="fas fa-phone me-2 text-orange"></i> 021-56235444</li>
+            <li class="mb-2"><i class="fas fa-envelope me-2 text-orange"></i> info@tabanstone.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-orange mb-4">لینک های سریع</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="fas fa-home me-2 text-orange"></i><a href="exercise.html"
+                class="footer-link">خانه</a></li>
+            <li class="mb-2"><i class="fas fa-layer-group me-2 text-orange"></i><a href="exercise.html"
+                class="footer-link">محصولات</a></li>
+            <li class="mb-2"><i class="fas fa-circle-info me-2 text-orange"></i><a href="about us/about.html"
+                class="footer-link">خدمات</a></li>
+            <li class="mb-2"><i class="fas fa-phone-volume me-2 text-orange"></i><a href="about us/about.html"
+                class="footer-link">تماس با ما</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-orange mb-4">محصولات</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="fas fa-layer-group me-2 text-orange"></i><a href="teraverten/teraverten.html"
+                class="footer-link">تراورتن</a></li>
+            <li class="mb-2"><i class="fas fa-layer-group me-2 text-orange"></i><a href="marmarit/marmarit.html"
+                class="footer-link">مرمریت</a></li>
+            <li class="mb-2"><i class="fas fa-layer-group me-2 text-orange"></i><a href="chini/chini.html"
+                class="footer-link">چینی</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <h5 class="text-orange mb-4">ما را دنبال کنید</h5>
+          <div class="social-icons d-flex justify-content-center gap-4">
+            <a href="https://instagram.com/tabanstone" target="_blank" class="social-icon">
+              <img src="images/icons8-instagram-50.png" alt="اینستاگرام" width="40" height="40">
+            </a>
+            <a href="https://t.me/tabanstone" target="_blank" class="social-icon">
+              <img src="images/icons8-telegram-50.png" alt="تلگرام" width="40" height="40">
+            </a>
+            <a href="https://twitter.com/tabanstone" target="_blank" class="social-icon">
+              <img src="images/icons8-twitter-50.png" alt="توییتر" width="40" height="40">
+            </a>
+          </div>
+          <div class="mt-4">
+            <a href="tel:+982156235444" class="btn btn-orange rounded-pill px-4">
+              <i class="fas fa-phone me-2"></i>تماس با ما
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4 pt-3 border-top">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="small text-muted mb-0">© 2025 سنگبری تابان. تمام حقوق محفوظ است.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="small text-muted mb-0">طراحی و توسعه توسط <a href="#" class="text-orange text-decoration-none">آرش
+              رحیمی بیدمشکی</a></p>
+        </div>
+      </div>
+    </div>
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="بازگشت به بالا">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+        <script>
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <script type="text/javascript" src="js exercise/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js exercise/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
